@@ -1,0 +1,239 @@
+<svg width="1800" height="1120" viewBox="0 0 1800 1120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5ecd6"/>
+      <stop offset="100%" stop-color="#dfcca5"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c6e2ee"/>
+      <stop offset="100%" stop-color="#8cb8cf"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+    <pattern id="dispute" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+      <line x1="0" y1="0" x2="0" y2="12" stroke="#8c3c2f" stroke-width="2" opacity="0.35"/>
+    </pattern>
+    <style>
+      .title { font: 700 36px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #3d2d1f; }
+      .subtitle { font: 500 18px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #5d4a35; }
+      .country { font: 700 24px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #1f1812; }
+      .region { font: italic 700 28px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #2f617d; }
+      .capital { font: 700 17px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #201712; }
+      .site { font: 600 15px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #2a2118; }
+      .legend { font: 600 16px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #2c241c; }
+      .note { font: 500 13px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #4d4031; }
+      .tiny { font: 500 12px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #4d4031; }
+    </style>
+  </defs>
+
+  <rect width="1800" height="1120" fill="url(#paper)"/>
+
+  <!-- seas -->
+  <path d="M1260,615 C1440,560 1645,688 1718,882 C1652,1015 1462,1064 1248,998 C1118,915 1110,706 1260,615 Z"
+        fill="url(#sea)" opacity="0.86"/>
+  <path d="M564,384 C736,318 924,348 1000,456 C1036,574 936,660 744,680 C560,666 452,558 492,444 Z"
+        fill="url(#sea)" opacity="0.82"/>
+  <path d="M1380,818 C1492,772 1620,790 1708,900 C1670,1000 1522,1060 1366,1032 C1286,972 1298,862 1380,818 Z"
+        fill="#709dbf" opacity="0.54"/>
+
+  <!-- landmass -->
+  <path d="M208,172
+           C290,110 430,82 545,118
+           C662,80 814,96 916,147
+           C1026,126 1154,162 1236,244
+           C1333,228 1415,288 1456,385
+           C1502,468 1481,584 1415,661
+           C1408,752 1362,834 1260,884
+           C1182,949 1034,972 924,942
+           C808,990 641,978 528,910
+           C406,922 284,870 215,776
+           C150,705 118,592 142,490
+           C112,358 146,242 208,172 Z"
+        fill="#dbc59c" stroke="#6f5b42" stroke-width="4" filter="url(#shadow)"/>
+
+  <!-- countries -->
+  <path d="M300,176 C455,118 640,128 788,176 C748,248 554,274 364,256 C300,235 280,206 300,176 Z"
+        fill="#c9d8e4" opacity="0.83" stroke="#5f7384" stroke-width="2"/>
+  <path d="M898,152 C1018,128 1145,166 1210,244 C1150,310 1048,328 950,306 C892,258 872,204 898,152 Z"
+        fill="#becbf4" opacity="0.93" stroke="#5f6c96" stroke-width="2"/>
+  <path d="M736,178 C815,152 910,165 952,220 C915,268 820,283 748,255 C715,229 710,195 736,178 Z"
+        fill="#dddcef" opacity="0.95" stroke="#85849b" stroke-width="2"/>
+  <path d="M235,242 C388,216 528,242 585,352 C530,438 408,474 288,447 C228,396 206,314 235,242 Z"
+        fill="#b8aa95" opacity="0.96" stroke="#685844" stroke-width="2"/>
+  <path d="M315,470 C462,420 670,440 780,548 C748,690 614,767 432,748 C326,692 284,588 315,470 Z"
+        fill="#dd704f" opacity="0.93" stroke="#893d2d" stroke-width="2"/>
+  <path d="M522,748 C664,697 852,704 952,772 C928,866 796,922 648,912 C548,876 500,818 522,748 Z"
+        fill="#8db981" opacity="0.95" stroke="#4d7444" stroke-width="2"/>
+  <path d="M786,372 C908,338 1020,350 1110,418 C1100,528 1010,593 892,598 C806,565 764,488 786,372 Z"
+        fill="#f8efc4" opacity="0.96" stroke="#aa9856" stroke-width="2"/>
+  <path d="M1044,388 C1168,360 1276,390 1332,478 C1322,590 1232,668 1102,670 C1026,625 1000,512 1044,388 Z"
+        fill="#d1a8dd" opacity="0.95" stroke="#805c91" stroke-width="2"/>
+  <path d="M970,612 C1090,570 1218,592 1272,680 C1216,766 1086,820 968,788 C918,738 916,652 970,612 Z"
+        fill="#beace8" opacity="0.93" stroke="#6d5d9d" stroke-width="2"/>
+  <path d="M1062,696 C1196,638 1370,660 1452,786 C1406,888 1256,930 1112,900 C1014,846 1000,754 1062,696 Z"
+        fill="#82c7d8" opacity="0.93" stroke="#3f7b89" stroke-width="2"/>
+
+  <!-- neutral and non-state zones -->
+  <ellipse cx="752" cy="507" rx="165" ry="98" fill="#dce9f2" opacity="0.96" stroke="#6d8aa1" stroke-width="2"/>
+  <path d="M175,445 C245,395 320,392 365,440 C350,540 286,604 192,628 C150,590 140,505 175,445 Z"
+        fill="url(#dispute)" stroke="#8c3c2f" stroke-width="2" stroke-dasharray="7 6"/>
+  <path d="M884,514 C942,496 1012,506 1068,548 C1048,605 992,644 920,642 C878,616 862,560 884,514 Z"
+        fill="url(#dispute)" stroke="#8c3c2f" stroke-width="2" stroke-dasharray="7 6" opacity="0.85"/>
+
+  <!-- borders -->
+  <g fill="none" stroke="#42362a" stroke-width="2.2" stroke-dasharray="9 7" opacity="0.82">
+    <path d="M585,352 C652,338 715,334 786,372"/>
+    <path d="M786,372 C842,420 864,476 884,514"/>
+    <path d="M884,514 C926,566 950,596 970,612"/>
+    <path d="M970,612 C972,652 968,710 952,772"/>
+    <path d="M1044,388 C1022,334 992,286 952,220"/>
+    <path d="M1110,418 C1138,336 1162,294 1210,244"/>
+    <path d="M736,178 C706,233 652,294 585,352"/>
+    <path d="M432,748 C474,758 514,760 522,748"/>
+  </g>
+
+  <!-- spheres of influence arcs -->
+  <g fill="none" stroke-linecap="round" opacity="0.5">
+    <path d="M910,414 C985,350 1085,322 1180,336" stroke="#b38f2a" stroke-width="4" stroke-dasharray="10 8"/>
+    <path d="M1138,470 C1210,454 1292,474 1360,530" stroke="#8b5fa1" stroke-width="4" stroke-dasharray="10 8"/>
+    <path d="M1118,716 C1188,684 1268,686 1334,730" stroke="#6a55c7" stroke-width="4" stroke-dasharray="10 8"/>
+    <path d="M628,804 C748,824 850,815 930,782" stroke="#4f8d54" stroke-width="4" stroke-dasharray="10 8"/>
+  </g>
+
+  <!-- shadow council network -->
+  <g fill="none" stroke="#241f2b" stroke-width="5" stroke-dasharray="10 8" opacity="0.42">
+    <path d="M560,594 C652,548 734,568 816,630"/>
+    <path d="M1126,612 C1042,548 970,520 910,516"/>
+    <path d="M348,716 C448,648 540,626 620,642"/>
+    <path d="M1260,800 C1190,766 1116,730 1046,696"/>
+  </g>
+
+  <!-- capitals and sites -->
+  <!-- capitals star -->
+  <g fill="#7f1919" stroke="#f9e9d4" stroke-width="1.2">
+    <polygon points="472,548 477,560 490,562 480,571 483,584 472,577 461,584 464,571 454,562 467,560"/>
+    <polygon points="1018,214 1023,226 1036,228 1026,237 1029,250 1018,243 1007,250 1010,237 1000,228 1013,226"/>
+    <polygon points="1230,814 1235,826 1248,828 1238,837 1241,850 1230,843 1219,850 1222,837 1212,828 1225,826"/>
+    <polygon points="882,468 887,480 900,482 890,491 893,504 882,497 871,504 874,491 864,482 877,480"/>
+    <polygon points="1128,518 1133,530 1146,532 1136,541 1139,554 1128,547 1117,554 1120,541 1110,532 1123,530"/>
+    <polygon points="664,846 669,858 682,860 672,869 675,882 664,875 653,882 656,869 646,860 659,858"/>
+    <polygon points="342,336 347,348 360,350 350,359 353,372 342,365 331,372 334,359 324,350 337,348"/>
+    <polygon points="804,224 809,236 822,238 812,247 815,260 804,253 793,260 796,247 786,238 799,236"/>
+  </g>
+
+  <!-- capital labels -->
+  <text x="492" y="552" class="capital">赤焰帝都·烬王城</text>
+  <text x="1038" y="218" class="capital">风暴王廷·雷穹港</text>
+  <text x="1250" y="818" class="capital">海蓝联邦议港·潮冠城</text>
+  <text x="902" y="472" class="capital">圣座城·白冠圣庭</text>
+  <text x="1148" y="522" class="capital">心灵帝都·镜意城</text>
+  <text x="684" y="850" class="capital">翠绿盟都·春穗城</text>
+  <text x="362" y="340" class="capital">石山帝都·千垒城</text>
+  <text x="824" y="228" class="capital">时序主城·寒钟城</text>
+
+  <!-- non-capital key sites -->
+  <g>
+    <circle cx="654" cy="398" r="7" fill="#8b2e2e"/>
+    <text x="670" y="394" class="site">格兰西斯学院城</text>
+
+    <circle cx="722" cy="563" r="7" fill="#8b2e2e"/>
+    <text x="738" y="568" class="site">澜镜港</text>
+
+    <circle cx="962" cy="710" r="7" fill="#8b2e2e"/>
+    <text x="978" y="716" class="site">白栖城</text>
+
+    <circle cx="356" cy="432" r="7" fill="#8b2e2e"/>
+    <text x="372" y="428" class="site">灰脊关</text>
+
+    <circle cx="212" cy="540" r="7" fill="#8b2e2e"/>
+    <text x="228" y="538" class="site">灼痕遗都</text>
+
+    <circle cx="1112" cy="722" r="7" fill="#8b2e2e"/>
+    <text x="1128" y="718" class="site">群门城</text>
+
+    <circle cx="1360" cy="884" r="7" fill="#8b2e2e"/>
+    <text x="1376" y="880" class="site">沉环渊遗址群</text>
+  </g>
+
+  <!-- labels -->
+  <text x="635" y="88" class="country" font-size="30">阿尔凯亚主大陆</text>
+  <text x="430" y="194" class="country">苍穹北境</text>
+  <text x="1300" y="646" class="region">潮冠海</text>
+  <text x="650" y="360" class="region">镜湖海中区</text>
+  <text x="1302" y="1022" class="region">沉环渊</text>
+  <text x="170" y="502" class="country">熔裂边境</text>
+  <text x="646" y="892" class="country">青穗河原</text>
+  <text x="910" y="646" class="country" fill="#2c2533">暗影议会渗透带</text>
+
+  <text x="1006" y="266" class="country">风暴王国</text>
+  <text x="770" y="262" class="country">时序学院城邦</text>
+  <text x="302" y="382" class="country">石山帝国</text>
+  <text x="490" y="620" class="country">赤焰帝国</text>
+  <text x="708" y="880" class="country">翠绿联盟</text>
+  <text x="890" y="540" class="country">光辉圣国</text>
+  <text x="1140" y="584" class="country">心灵帝国</text>
+  <text x="1030" y="756" class="country">星门商盟</text>
+  <text x="1210" y="856" class="country">海蓝联邦</text>
+
+  <!-- neutral labels -->
+  <text x="650" y="490" class="site">镜湖海中立群岛</text>
+  <text x="688" y="514" class="tiny">议政岛 / 学院交流港 / 镜像仓库区</text>
+
+  <!-- title box -->
+  <rect x="44" y="42" width="750" height="112" rx="14" fill="#f8f0db" opacity="0.92" stroke="#8d7a5d" stroke-width="2"/>
+  <text x="68" y="86" class="title">世界地图 V3 · 政治版</text>
+  <text x="70" y="116" class="subtitle">以国家边界、首都、议会秩序、中立区、争议区与权力中心为重点的分层地图</text>
+
+  <!-- compass -->
+  <g transform="translate(1548,114)">
+    <circle cx="0" cy="0" r="56" fill="#f8f0db" stroke="#7a6851" stroke-width="3"/>
+    <path d="M0,-42 L9,0 L0,42 L-9,0 Z" fill="#7a6851"/>
+    <path d="M-42,0 L0,9 L42,0 L0,-9 Z" fill="#7a6851"/>
+    <text x="-8" y="-64" class="legend">北</text>
+    <text x="58" y="6" class="legend">东</text>
+    <text x="-8" y="83" class="legend">南</text>
+    <text x="-68" y="6" class="legend">西</text>
+  </g>
+
+  <!-- legend -->
+  <g transform="translate(1368,210)">
+    <rect x="0" y="0" width="378" height="480" rx="16" fill="#f8f0db" opacity="0.94" stroke="#8c7a5d" stroke-width="2"/>
+    <text x="18" y="34" class="country" font-size="22">政治图例</text>
+
+    <rect x="20" y="58" width="28" height="18" fill="#dd704f" stroke="#893d2d" stroke-width="1.2"/>
+    <text x="62" y="72" class="legend">国家势力核心区</text>
+
+    <line x1="20" y1="104" x2="48" y2="104" stroke="#42362a" stroke-width="2.2" stroke-dasharray="9 7"/>
+    <text x="62" y="109" class="legend">国家边界示意</text>
+
+    <rect x="20" y="132" width="28" height="18" fill="url(#dispute)" stroke="#8c3c2f" stroke-width="1.2"/>
+    <text x="62" y="146" class="legend">争议地带 / 旧战争创伤区</text>
+
+    <line x1="20" y1="176" x2="48" y2="176" stroke="#b38f2a" stroke-width="4" stroke-dasharray="10 8"/>
+    <text x="62" y="181" class="legend">宗教 / 圣座合法性影响弧</text>
+
+    <line x1="20" y1="208" x2="48" y2="208" stroke="#8b5fa1" stroke-width="4" stroke-dasharray="10 8"/>
+    <text x="62" y="213" class="legend">认知 / 教育影响弧</text>
+
+    <line x1="20" y1="240" x2="48" y2="240" stroke="#6a55c7" stroke-width="4" stroke-dasharray="10 8"/>
+    <text x="62" y="245" class="legend">门链与商业影响弧</text>
+
+    <line x1="20" y1="272" x2="48" y2="272" stroke="#241f2b" stroke-width="5" stroke-dasharray="10 8" opacity="0.45"/>
+    <text x="62" y="277" class="legend">暗影议会渗透网络</text>
+
+    <polygon points="34,305 39,317 52,319 42,328 45,341 34,334 23,341 26,328 16,319 29,317" fill="#7f1919" stroke="#f9e9d4" stroke-width="1.2"/>
+    <text x="62" y="323" class="legend">首都 / 国都 / 最高中枢</text>
+
+    <circle cx="34" cy="356" r="7" fill="#8b2e2e"/>
+    <text x="62" y="361" class="legend">关键学院 / 港口 / 门站 / 遗迹</text>
+
+    <text x="20" y="404" class="note">本图优先回答：</text>
+    <text x="20" y="424" class="note">谁控制哪里、哪里是谁的喉咙、</text>
+    <text x="20" y="444" class="note">哪片区域天然是缓冲区、哪条线</text>
+    <text x="20" y="464" class="note">一旦断掉就会引发全球级震荡。</text>
+  </g>
+
+  <!-- footer -->
+  <text x="50" y="1068" class="note">建议下一步继续制作：`世界地图_网络版.svg`，把公共节点、中继塔、门链、黑市节点和仓库镜像站全部单独分层画出来。</text>
+</svg>

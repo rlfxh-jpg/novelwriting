@@ -1,0 +1,243 @@
+<svg width="1800" height="1120" viewBox="0 0 1800 1120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5ecd7"/>
+      <stop offset="100%" stop-color="#dfcca6"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#bfdde9"/>
+      <stop offset="100%" stop-color="#83b3cc"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+    <style>
+      .title { font: 700 36px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #3d2d1f; }
+      .subtitle { font: 500 18px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #5d4b36; }
+      .country { font: 700 22px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #241b12; }
+      .region { font: italic 700 26px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #2d617d; }
+      .city { font: 600 15px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #211810; }
+      .legend { font: 600 16px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #2d241d; }
+      .note { font: 500 13px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #4f4232; }
+      .tiny { font: 500 12px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #4f4232; }
+    </style>
+  </defs>
+
+  <rect width="1800" height="1120" fill="url(#paper)"/>
+
+  <!-- Water -->
+  <path d="M1260,615 C1440,560 1645,688 1718,882 C1652,1015 1462,1064 1248,998 C1118,915 1110,706 1260,615 Z"
+        fill="url(#sea)" opacity="0.84"/>
+  <path d="M564,384 C736,318 924,348 1000,456 C1036,574 936,660 744,680 C560,666 452,558 492,444 Z"
+        fill="url(#sea)" opacity="0.8"/>
+  <path d="M1380,818 C1492,772 1620,790 1708,900 C1670,1000 1522,1060 1366,1032 C1286,972 1298,862 1380,818 Z"
+        fill="#719fc0" opacity="0.54"/>
+
+  <!-- Continent -->
+  <path d="M208,172
+           C290,110 430,82 545,118
+           C662,80 814,96 916,147
+           C1026,126 1154,162 1236,244
+           C1333,228 1415,288 1456,385
+           C1502,468 1481,584 1415,661
+           C1408,752 1362,834 1260,884
+           C1182,949 1034,972 924,942
+           C808,990 641,978 528,910
+           C406,922 284,870 215,776
+           C150,705 118,592 142,490
+           C112,358 146,242 208,172 Z"
+        fill="#dbc59b" stroke="#6f5b42" stroke-width="4" filter="url(#shadow)"/>
+
+  <!-- Light country tinting -->
+  <path d="M300,176 C455,118 640,128 788,176 C748,248 554,274 364,256 C300,235 280,206 300,176 Z"
+        fill="#c8d7e3" opacity="0.48"/>
+  <path d="M898,152 C1018,128 1145,166 1210,244 C1150,310 1048,328 950,306 C892,258 872,204 898,152 Z"
+        fill="#bdc9f1" opacity="0.48"/>
+  <path d="M736,178 C815,152 910,165 952,220 C915,268 820,283 748,255 C715,229 710,195 736,178 Z"
+        fill="#dcdbef" opacity="0.5"/>
+  <path d="M235,242 C388,216 528,242 585,352 C530,438 408,474 288,447 C228,396 206,314 235,242 Z"
+        fill="#b8ab97" opacity="0.48"/>
+  <path d="M315,470 C462,420 670,440 780,548 C748,690 614,767 432,748 C326,692 284,588 315,470 Z"
+        fill="#dc7350" opacity="0.5"/>
+  <path d="M522,748 C664,697 852,704 952,772 C928,866 796,922 648,912 C548,876 500,818 522,748 Z"
+        fill="#8bb47d" opacity="0.52"/>
+  <path d="M786,372 C908,338 1020,350 1110,418 C1100,528 1010,593 892,598 C806,565 764,488 786,372 Z"
+        fill="#f4efc8" opacity="0.5"/>
+  <path d="M1044,388 C1168,360 1276,390 1332,478 C1322,590 1232,668 1102,670 C1026,625 1000,512 1044,388 Z"
+        fill="#d0a9dd" opacity="0.48"/>
+  <path d="M970,612 C1090,570 1218,592 1272,680 C1216,766 1086,820 968,788 C918,738 916,652 970,612 Z"
+        fill="#bcabe8" opacity="0.48"/>
+  <path d="M1062,696 C1196,638 1370,660 1452,786 C1406,888 1256,930 1112,900 C1014,846 1000,754 1062,696 Z"
+        fill="#82c6d9" opacity="0.48"/>
+  <ellipse cx="752" cy="507" rx="165" ry="98" fill="#dceaf2" opacity="0.86" stroke="#6e8aa0" stroke-width="1.8"/>
+
+  <!-- Labels -->
+  <text x="635" y="88" class="country" font-size="30">阿尔凯亚主大陆</text>
+  <text x="1288" y="646" class="region">潮冠海</text>
+  <text x="652" y="362" class="region">镜湖海中区</text>
+  <text x="1300" y="1020" class="region">沉环渊</text>
+
+  <text x="1006" y="266" class="country">风暴王国</text>
+  <text x="770" y="262" class="country">时序学院城邦</text>
+  <text x="300" y="382" class="country">石山帝国</text>
+  <text x="490" y="620" class="country">赤焰帝国</text>
+  <text x="708" y="880" class="country">翠绿联盟</text>
+  <text x="890" y="540" class="country">光辉圣国</text>
+  <text x="1140" y="584" class="country">心灵帝国</text>
+  <text x="1030" y="756" class="country">星门商盟</text>
+  <text x="1210" y="856" class="country">海蓝联邦</text>
+  <text x="905" y="646" class="country" fill="#2b2532">暗影议会渗透带</text>
+
+  <!-- Core cities -->
+  <g>
+    <circle cx="654" cy="398" r="7" fill="#8b2e2e"/><text x="669" y="394" class="city">格兰西斯学院城</text>
+    <circle cx="722" cy="563" r="7" fill="#8b2e2e"/><text x="737" y="568" class="city">澜镜港</text>
+    <circle cx="962" cy="710" r="7" fill="#8b2e2e"/><text x="978" y="716" class="city">白栖城</text>
+    <circle cx="356" cy="432" r="7" fill="#8b2e2e"/><text x="372" y="428" class="city">灰脊关</text>
+    <circle cx="212" cy="540" r="7" fill="#8b2e2e"/><text x="228" y="538" class="city">灼痕遗都</text>
+    <circle cx="860" cy="198" r="7" fill="#8b2e2e"/><text x="876" y="194" class="city">寒钟塔城</text>
+    <circle cx="1112" cy="722" r="7" fill="#8b2e2e"/><text x="1128" y="718" class="city">群门城</text>
+    <circle cx="1360" cy="884" r="7" fill="#8b2e2e"/><text x="1376" y="880" class="city">沉环渊遗址群</text>
+  </g>
+
+  <!-- relay towers -->
+  <g fill="#35698c" stroke="#f6e6c9" stroke-width="1.2">
+    <rect x="796" y="214" width="10" height="16" rx="2"/>
+    <rect x="934" y="216" width="10" height="16" rx="2"/>
+    <rect x="1056" y="220" width="10" height="16" rx="2"/>
+    <rect x="1178" y="210" width="10" height="16" rx="2"/>
+    <rect x="640" y="456" width="10" height="16" rx="2"/>
+    <rect x="820" y="454" width="10" height="16" rx="2"/>
+    <rect x="1004" y="466" width="10" height="16" rx="2"/>
+    <rect x="1216" y="738" width="10" height="16" rx="2"/>
+    <rect x="1324" y="792" width="10" height="16" rx="2"/>
+  </g>
+
+  <!-- public nodes -->
+  <g>
+    <circle cx="962" cy="710" r="11" fill="#26a269" stroke="#e7f8ed" stroke-width="2"/>
+    <circle cx="722" cy="563" r="9" fill="#26a269" stroke="#e7f8ed" stroke-width="2" opacity="0.55"/>
+    <circle cx="654" cy="398" r="9" fill="#26a269" stroke="#e7f8ed" stroke-width="2" opacity="0.4"/>
+    <circle cx="840" cy="480" r="8" fill="#26a269" stroke="#e7f8ed" stroke-width="2" opacity="0.35"/>
+  </g>
+
+  <!-- archive mirror stations -->
+  <g fill="#d28c2d" stroke="#fff3da" stroke-width="1.4">
+    <polygon points="700,536 708,548 700,560 692,548"/>
+    <polygon points="950,692 958,704 950,716 942,704"/>
+    <polygon points="1118,734 1126,746 1118,758 1110,746"/>
+    <polygon points="808,230 816,242 808,254 800,242"/>
+  </g>
+
+  <!-- official gate chain -->
+  <g fill="none" stroke="#6952d8" stroke-linecap="round">
+    <path d="M888,522 C978,556 1058,618 1112,690 C1168,748 1242,804 1328,845"
+          stroke-width="7" opacity="0.82"/>
+    <circle cx="888" cy="522" r="9" fill="#6952d8"/>
+    <circle cx="988" cy="596" r="9" fill="#6952d8"/>
+    <circle cx="1112" cy="690" r="9" fill="#6952d8"/>
+    <circle cx="1218" cy="782" r="9" fill="#6952d8"/>
+    <circle cx="1328" cy="845" r="9" fill="#6952d8"/>
+  </g>
+
+  <!-- public network routes -->
+  <g fill="none" stroke="#21a366" stroke-width="5" stroke-linecap="round" opacity="0.92">
+    <path d="M654,398 C684,448 704,508 722,563"/>
+    <path d="M722,563 C796,610 866,654 962,710"/>
+    <path d="M962,710 C1014,720 1060,728 1112,722"/>
+  </g>
+
+  <!-- relay mesh -->
+  <g fill="none" stroke="#2e6f93" stroke-width="4" stroke-dasharray="10 8" opacity="0.8">
+    <path d="M801,222 C850,210 888,210 939,224 C980,230 1020,228 1061,228 C1112,224 1148,221 1183,218"/>
+    <path d="M645,464 C704,450 764,450 825,462 C884,470 945,470 1009,474"/>
+    <path d="M1009,474 C1085,560 1145,646 1221,746 C1260,770 1290,784 1329,800"/>
+  </g>
+
+  <!-- black market lines -->
+  <g fill="none" stroke="#25202c" stroke-width="5" stroke-dasharray="9 8" opacity="0.5">
+    <path d="M722,563 C640,560 505,540 356,432"/>
+    <path d="M356,432 C298,462 248,504 212,540"/>
+    <path d="M962,710 C904,676 840,638 786,608"/>
+    <path d="M1112,722 C1180,756 1260,810 1360,884"/>
+  </g>
+
+  <!-- energy trunk lines -->
+  <g fill="none" stroke="#a05b24" stroke-width="4.5" stroke-linecap="round" opacity="0.78">
+    <path d="M342,432 C430,466 544,500 722,563"/>
+    <path d="M472,560 C560,620 612,710 664,846"/>
+    <path d="M1230,814 C1190,786 1152,754 1112,722"/>
+    <path d="M1112,722 C1044,642 980,578 888,522"/>
+  </g>
+
+  <!-- public expansion arcs -->
+  <g fill="none" stroke="#38b77a" stroke-width="3.5" stroke-dasharray="8 7" opacity="0.7">
+    <path d="M962,710 C1024,694 1082,678 1142,650"/>
+    <path d="M962,710 C905,764 832,810 744,842"/>
+    <path d="M722,563 C690,500 676,450 654,398"/>
+  </g>
+
+  <!-- neutral hub note -->
+  <text x="650" y="492" class="city">镜湖海中立群岛</text>
+  <text x="650" y="512" class="tiny">议政岛 / 学院交流港 / 镜像仓库区 / 多国节点缓冲地</text>
+
+  <!-- Title -->
+  <rect x="44" y="42" width="770" height="112" rx="14" fill="#f8f0db" opacity="0.94" stroke="#8d7a5d" stroke-width="2"/>
+  <text x="68" y="86" class="title">世界地图 V3 · 网络版</text>
+  <text x="70" y="116" class="subtitle">以公共节点、中继塔、门链主干网、黑市线路、镜像仓库与能源干线为重点的分层地图</text>
+
+  <!-- Compass -->
+  <g transform="translate(1548,114)">
+    <circle cx="0" cy="0" r="56" fill="#f8f0db" stroke="#7a6851" stroke-width="3"/>
+    <path d="M0,-42 L9,0 L0,42 L-9,0 Z" fill="#7a6851"/>
+    <path d="M-42,0 L0,9 L42,0 L0,-9 Z" fill="#7a6851"/>
+    <text x="-8" y="-64" class="legend">北</text>
+    <text x="58" y="6" class="legend">东</text>
+    <text x="-8" y="83" class="legend">南</text>
+    <text x="-68" y="6" class="legend">西</text>
+  </g>
+
+  <!-- legend -->
+  <g transform="translate(1360,194)">
+    <rect x="0" y="0" width="390" height="550" rx="16" fill="#f8f0db" opacity="0.95" stroke="#8c7a5d" stroke-width="2"/>
+    <text x="18" y="34" class="country" font-size="22">网络图例</text>
+
+    <circle cx="34" cy="70" r="11" fill="#26a269" stroke="#e7f8ed" stroke-width="2"/>
+    <text x="60" y="75" class="legend">公共节点（已上线 / 高潜力）</text>
+
+    <rect x="29" y="100" width="10" height="16" rx="2" fill="#35698c" stroke="#f6e6c9" stroke-width="1.2"/>
+    <text x="60" y="113" class="legend">中继塔 / 观测塔 / 线路塔</text>
+
+    <polygon points="34,132 42,144 34,156 26,144" fill="#d28c2d" stroke="#fff3da" stroke-width="1.4"/>
+    <text x="60" y="147" class="legend">术式仓库镜像站</text>
+
+    <line x1="20" y1="180" x2="48" y2="180" stroke="#6952d8" stroke-width="7"/>
+    <circle cx="34" cy="180" r="5" fill="#6952d8"/>
+    <text x="60" y="185" class="legend">官方门链主干网</text>
+
+    <line x1="20" y1="214" x2="48" y2="214" stroke="#21a366" stroke-width="5"/>
+    <text x="60" y="219" class="legend">公共节点主干连接</text>
+
+    <line x1="20" y1="248" x2="48" y2="248" stroke="#2e6f93" stroke-width="4" stroke-dasharray="10 8"/>
+    <text x="60" y="253" class="legend">中继塔链 / 网络骨架</text>
+
+    <line x1="20" y1="282" x2="48" y2="282" stroke="#25202c" stroke-width="5" stroke-dasharray="9 8" opacity="0.5"/>
+    <text x="60" y="287" class="legend">黑市 / 暗影议会地下线路</text>
+
+    <line x1="20" y1="316" x2="48" y2="316" stroke="#a05b24" stroke-width="4.5"/>
+    <text x="60" y="321" class="legend">能源主干运输线</text>
+
+    <line x1="20" y1="350" x2="48" y2="350" stroke="#38b77a" stroke-width="3.5" stroke-dasharray="8 7"/>
+    <text x="60" y="355" class="legend">主角路线下的公共扩张方向</text>
+
+    <text x="20" y="400" class="note">阅读重点：</text>
+    <text x="20" y="420" class="note">1. 旧世界最强的是门链、议会节点和家族网关。</text>
+    <text x="20" y="440" class="note">2. 主角路线最先从学院城 → 港口 → 样板城长出。</text>
+    <text x="20" y="460" class="note">3. 镜湖海中区是“公共网络”最合理的起爆点。</text>
+    <text x="20" y="480" class="note">4. 黑市线路和官方主干网互相依附又互相咬合。</text>
+    <text x="20" y="500" class="note">5. 真相层最终会把全部网络重新指向沉环渊深处。</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="50" y="1068" class="note">建议下一步继续制作：`世界地图_剧情路线版.svg`，把第一卷到第五卷的角色行动、战争升级、公共节点扩张和真相探索路线分别分层画出来。</text>
+</svg>

@@ -1,0 +1,237 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#efe4c8"/>
+      <stop offset="100%" stop-color="#dfd0ab"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+    <style>
+      .title { font: 700 34px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #3c2f21; }
+      .subtitle { font: 500 18px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #5d4a33; }
+      .region-label { font: 700 26px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #2d2419; }
+      .country-label { font: 700 22px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #20170f; }
+      .city-label { font: 600 16px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #1d1d1d; }
+      .sea-label { font: italic 700 28px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #2c5e7d; }
+      .small { font: 500 14px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #3f3529; }
+      .legend { font: 600 16px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #2f271f; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1600" height="1000" fill="url(#bgGrad)"/>
+
+  <!-- Seas -->
+  <path d="M1140,560 C1300,520 1480,630 1540,790 C1480,920 1310,970 1120,900 C1020,820 1020,640 1140,560 Z"
+        fill="#9cc7e6" opacity="0.8"/>
+  <path d="M520,360 C670,300 830,330 900,420 C940,530 860,610 700,630 C540,620 450,520 470,430 Z"
+        fill="#a8d1ec" opacity="0.82"/>
+  <path d="M1260,760 C1350,710 1480,720 1550,840 C1510,940 1380,980 1240,950 C1180,900 1190,810 1260,760 Z"
+        fill="#6ea1c9" opacity="0.62"/>
+
+  <!-- Main continent shadow -->
+  <path d="M215,185
+           C290,120 420,95 520,120
+           C630,85 760,100 860,155
+           C960,135 1090,170 1165,245
+           C1240,230 1325,285 1360,370
+           C1410,445 1385,560 1320,630
+           C1320,715 1265,805 1160,845
+           C1080,915 945,925 850,895
+           C730,945 575,925 470,870
+           C360,885 250,830 200,740
+           C145,675 125,575 150,485
+           C125,370 155,255 215,185 Z"
+        fill="#6f5b46" opacity="0.18"/>
+
+  <!-- Main continent -->
+  <path d="M200,170
+           C280,110 410,90 515,120
+           C635,82 770,98 865,150
+           C975,130 1095,165 1170,245
+           C1265,228 1335,290 1368,372
+           C1415,450 1392,558 1328,625
+           C1328,720 1273,808 1165,848
+           C1088,918 945,930 848,900
+           C732,950 570,932 462,872
+           C350,888 248,835 195,742
+           C140,675 118,575 145,485
+           C118,368 145,248 200,170 Z"
+        fill="#d8c39b" stroke="#725d42" stroke-width="4" filter="url(#shadow)"/>
+
+  <!-- Regions / Countries -->
+  <!-- 北境 -->
+  <path d="M290,180 C430,120 620,120 760,170 C700,245 520,265 350,250 C285,230 270,205 290,180 Z"
+        fill="#b8d4e6" opacity="0.78" stroke="#6f8796" stroke-width="2"/>
+
+  <!-- 风暴王国 -->
+  <path d="M875,155 C1000,130 1120,165 1185,248 C1125,305 1020,323 930,300 C865,260 848,205 875,155 Z"
+        fill="#b7c8f2" opacity="0.9" stroke="#5d6d9a" stroke-width="2"/>
+
+  <!-- 时序学院城邦 -->
+  <path d="M725,178 C805,150 900,162 945,218 C905,270 810,285 740,252 C710,228 704,195 725,178 Z"
+        fill="#d7d8ef" opacity="0.95" stroke="#81839d" stroke-width="2"/>
+
+  <!-- 石山帝国 -->
+  <path d="M235,245 C375,220 520,245 575,350 C520,430 400,468 285,442 C225,390 205,315 235,245 Z"
+        fill="#b9aa95" opacity="0.95" stroke="#6b5c49" stroke-width="2"/>
+
+  <!-- 熔裂边境 -->
+  <path d="M130,455 C220,395 290,385 338,430 C330,520 268,590 175,615 C122,578 105,505 130,455 Z"
+        fill="#b55a3c" opacity="0.7" stroke="#7f3926" stroke-width="2" stroke-dasharray="7 6"/>
+
+  <!-- 赤焰帝国 -->
+  <path d="M310,475 C455,420 655,440 760,545 C730,680 600,758 430,742 C325,688 282,585 310,475 Z"
+        fill="#d86d4e" opacity="0.92" stroke="#883c2b" stroke-width="2"/>
+
+  <!-- 翠绿联盟 -->
+  <path d="M515,745 C645,695 835,700 930,770 C905,860 782,915 640,904 C548,870 500,815 515,745 Z"
+        fill="#8ab57d" opacity="0.94" stroke="#4e7642" stroke-width="2"/>
+
+  <!-- 光辉圣国 -->
+  <path d="M775,375 C900,338 1010,350 1098,415 C1088,520 1000,585 888,590 C805,560 758,490 775,375 Z"
+        fill="#f6efc3" opacity="0.95" stroke="#a69657" stroke-width="2"/>
+
+  <!-- 心灵帝国 -->
+  <path d="M1035,390 C1160,360 1268,390 1320,478 C1308,588 1220,662 1095,664 C1025,620 998,510 1035,390 Z"
+        fill="#cda8d8" opacity="0.94" stroke="#7f5a91" stroke-width="2"/>
+
+  <!-- 星门商盟 -->
+  <path d="M960,612 C1085,570 1210,590 1265,678 C1210,760 1085,812 965,782 C915,732 910,652 960,612 Z"
+        fill="#b9a7e8" opacity="0.92" stroke="#6e5d9d" stroke-width="2"/>
+
+  <!-- 海蓝联邦 -->
+  <path d="M1050,690 C1185,635 1360,655 1435,782 C1390,880 1248,920 1105,892 C1008,842 990,752 1050,690 Z"
+        fill="#7dc5d7" opacity="0.92" stroke="#3d7e8d" stroke-width="2"/>
+
+  <!-- 镜湖海中区 islands -->
+  <ellipse cx="700" cy="485" rx="145" ry="90" fill="#d8e7f1" opacity="0.92" stroke="#6688a0" stroke-width="2"/>
+  <ellipse cx="640" cy="515" rx="32" ry="21" fill="#dbc59d" stroke="#6f5d42" stroke-width="1.6"/>
+  <ellipse cx="730" cy="445" rx="26" ry="16" fill="#dbc59d" stroke="#6f5d42" stroke-width="1.6"/>
+  <ellipse cx="782" cy="520" rx="22" ry="14" fill="#dbc59d" stroke="#6f5d42" stroke-width="1.4"/>
+
+  <!-- Shadow Council influence -->
+  <path d="M540,585 C635,540 730,565 810,628" fill="none" stroke="#2c2634" stroke-width="5" stroke-dasharray="10 8" opacity="0.45"/>
+  <path d="M1120,610 C1045,545 970,520 900,512" fill="none" stroke="#2c2634" stroke-width="5" stroke-dasharray="10 8" opacity="0.45"/>
+  <path d="M350,710 C455,645 535,622 615,640" fill="none" stroke="#2c2634" stroke-width="5" stroke-dasharray="10 8" opacity="0.45"/>
+
+  <!-- Strategic routes -->
+  <!-- Central land corridor -->
+  <path d="M300,395 C435,370 560,385 690,430 C805,450 915,430 1010,420"
+        fill="none" stroke="#8f5b39" stroke-width="8" stroke-linecap="round" opacity="0.75"/>
+  <!-- Mirror lake inner ring -->
+  <ellipse cx="700" cy="485" rx="215" ry="120" fill="none" stroke="#2f6f9b" stroke-width="5" stroke-dasharray="14 10" opacity="0.75"/>
+  <!-- Southeast sea route -->
+  <path d="M980,700 C1080,660 1175,660 1280,700 C1360,735 1430,785 1478,848"
+        fill="none" stroke="#2b83b8" stroke-width="6" stroke-dasharray="14 10" opacity="0.8"/>
+  <!-- Northern tower line -->
+  <path d="M780,205 C860,165 935,170 1015,205 C1090,230 1162,220 1228,190"
+        fill="none" stroke="#6da1c8" stroke-width="5" stroke-dasharray="7 8" opacity="0.82"/>
+  <!-- Star gate trunk -->
+  <path d="M865,505 C950,540 1030,610 1085,680 C1135,735 1210,785 1290,820"
+        fill="none" stroke="#6d54d7" stroke-width="7" stroke-linecap="round" opacity="0.78"/>
+
+  <!-- Gate nodes -->
+  <circle cx="865" cy="505" r="9" fill="#6d54d7"/>
+  <circle cx="974" cy="590" r="9" fill="#6d54d7"/>
+  <circle cx="1080" cy="680" r="9" fill="#6d54d7"/>
+  <circle cx="1185" cy="758" r="9" fill="#6d54d7"/>
+  <circle cx="1290" cy="820" r="9" fill="#6d54d7"/>
+
+  <!-- Cities -->
+  <circle cx="655" cy="398" r="8" fill="#8b2e2e"/>
+  <text x="670" y="395" class="city-label">格兰西斯学院城</text>
+
+  <circle cx="720" cy="565" r="8" fill="#8b2e2e"/>
+  <text x="736" y="570" class="city-label">澜镜港</text>
+
+  <circle cx="960" cy="710" r="8" fill="#8b2e2e"/>
+  <text x="976" y="716" class="city-label">白栖城</text>
+
+  <circle cx="365" cy="430" r="8" fill="#8b2e2e"/>
+  <text x="382" y="426" class="city-label">灰脊关</text>
+
+  <circle cx="210" cy="540" r="8" fill="#8b2e2e"/>
+  <text x="227" y="538" class="city-label">灼痕遗都</text>
+
+  <circle cx="860" cy="198" r="8" fill="#8b2e2e"/>
+  <text x="877" y="194" class="city-label">寒钟塔城</text>
+
+  <circle cx="1110" cy="722" r="8" fill="#8b2e2e"/>
+  <text x="1126" y="720" class="city-label">群门城</text>
+
+  <circle cx="1340" cy="870" r="8" fill="#8b2e2e"/>
+  <text x="1356" y="868" class="city-label">沉环渊遗址群</text>
+
+  <!-- Region labels -->
+  <text x="600" y="85" class="region-label">阿尔凯亚主大陆</text>
+  <text x="415" y="195" class="country-label">苍穹北境</text>
+  <text x="1132" y="145" class="sea-label">北境观测带</text>
+  <text x="1175" y="585" class="sea-label">潮冠海</text>
+  <text x="630" y="345" class="sea-label">镜湖海中区</text>
+  <text x="180" y="500" class="country-label">熔裂边境</text>
+  <text x="625" y="865" class="country-label">青穗河原</text>
+  <text x="1295" y="948" class="sea-label">沉环渊</text>
+
+  <!-- Country labels -->
+  <text x="975" y="240" class="country-label">风暴王国</text>
+  <text x="760" y="235" class="country-label">时序学院城邦</text>
+  <text x="300" y="330" class="country-label">石山帝国</text>
+  <text x="480" y="585" class="country-label">赤焰帝国</text>
+  <text x="620" y="835" class="country-label">翠绿联盟</text>
+  <text x="875" y="470" class="country-label">光辉圣国</text>
+  <text x="1110" y="520" class="country-label">心灵帝国</text>
+  <text x="1040" y="706" class="country-label">星门商盟</text>
+  <text x="1200" y="808" class="country-label">海蓝联邦</text>
+  <text x="875" y="640" class="country-label" fill="#241d2d">暗影议会渗透带</text>
+
+  <!-- Title block -->
+  <rect x="46" y="42" width="486" height="102" rx="14" fill="#f4ecd6" opacity="0.88" stroke="#8c7a5d" stroke-width="2"/>
+  <text x="70" y="84" class="title">世界地图草案</text>
+  <text x="72" y="114" class="subtitle">基于《世界地理格局与势力地图草案》制作的示意版，不是最终成图</text>
+
+  <!-- Compass -->
+  <g transform="translate(1460,110)">
+    <circle cx="0" cy="0" r="52" fill="#f6f0de" stroke="#7b6a54" stroke-width="3"/>
+    <path d="M0,-40 L8,0 L0,40 L-8,0 Z" fill="#7b6a54"/>
+    <path d="M-40,0 L0,8 L40,0 L0,-8 Z" fill="#7b6a54"/>
+    <text x="-8" y="-58" class="legend">北</text>
+    <text x="56" y="6" class="legend">东</text>
+    <text x="-8" y="75" class="legend">南</text>
+    <text x="-68" y="6" class="legend">西</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(1185,55)">
+    <rect x="0" y="0" width="340" height="335" rx="14" fill="#f4ecd6" opacity="0.9" stroke="#8c7a5d" stroke-width="2"/>
+    <text x="18" y="32" class="region-label" font-size="22">图例</text>
+
+    <rect x="20" y="55" width="26" height="18" fill="#d86d4e" stroke="#883c2b" stroke-width="1.4"/>
+    <text x="58" y="69" class="legend">国家势力核心区</text>
+
+    <rect x="20" y="88" width="26" height="18" fill="#b55a3c" opacity="0.7" stroke="#7f3926" stroke-width="1.4" stroke-dasharray="4 3"/>
+    <text x="58" y="102" class="legend">高危边境 / 旧战争创伤区</text>
+
+    <line x1="20" y1="132" x2="46" y2="132" stroke="#8f5b39" stroke-width="7" stroke-linecap="round"/>
+    <text x="58" y="137" class="legend">中央高原陆战走廊</text>
+
+    <line x1="20" y1="164" x2="46" y2="164" stroke="#2f6f9b" stroke-width="5" stroke-dasharray="12 8"/>
+    <text x="58" y="169" class="legend">商贸 / 海运主航线</text>
+
+    <line x1="20" y1="196" x2="46" y2="196" stroke="#6d54d7" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="33" cy="196" r="5" fill="#6d54d7"/>
+    <text x="58" y="201" class="legend">星门门链主干网</text>
+
+    <line x1="20" y1="228" x2="46" y2="228" stroke="#2c2634" stroke-width="5" stroke-dasharray="9 7" opacity="0.55"/>
+    <text x="58" y="233" class="legend">暗影议会渗透网络</text>
+
+    <circle cx="33" cy="262" r="7" fill="#8b2e2e"/>
+    <text x="58" y="267" class="legend">关键城市 / 学院 / 遗迹</text>
+
+    <text x="20" y="300" class="small">说明：这是一版剧情导向的地理示意图，</text>
+    <text x="20" y="320" class="small">重点用于标示势力关系、路线与舞台落点。</text>
+  </g>
+
+  <!-- Bottom note -->
+  <text x="50" y="960" class="small">建议下一步配合 `关键城市学院遗迹设定集.md` 一起使用，再继续细化成正式地图版本。</text>
+</svg>

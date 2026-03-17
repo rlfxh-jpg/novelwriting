@@ -1,0 +1,216 @@
+<svg width="1800" height="1120" viewBox="0 0 1800 1120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6edd8"/>
+      <stop offset="100%" stop-color="#e0cea7"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c3e0eb"/>
+      <stop offset="100%" stop-color="#88b7cd"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#b42318"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#d97706"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#16a34a"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/>
+    </marker>
+    <marker id="arrow-purple" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#7c3aed"/>
+    </marker>
+    <style>
+      .title { font: 700 36px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #3d2d1f; }
+      .subtitle { font: 500 18px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #5d4b36; }
+      .country { font: 700 22px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #241b12; opacity: 0.82; }
+      .region { font: italic 700 26px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #2d617d; opacity: 0.88; }
+      .city { font: 600 15px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #1f1711; }
+      .legend { font: 600 16px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #2d241c; }
+      .note { font: 500 13px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #4f4232; }
+      .tiny { font: 500 12px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; fill: #4f4232; }
+      .vol { font: 700 18px 'Microsoft YaHei','PingFang SC','SimHei',sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1800" height="1120" fill="url(#paper)"/>
+
+  <!-- Water -->
+  <path d="M1260,615 C1440,560 1645,688 1718,882 C1652,1015 1462,1064 1248,998 C1118,915 1110,706 1260,615 Z"
+        fill="url(#sea)" opacity="0.82"/>
+  <path d="M564,384 C736,318 924,348 1000,456 C1036,574 936,660 744,680 C560,666 452,558 492,444 Z"
+        fill="url(#sea)" opacity="0.78"/>
+  <path d="M1380,818 C1492,772 1620,790 1708,900 C1670,1000 1522,1060 1366,1032 C1286,972 1298,862 1380,818 Z"
+        fill="#719fc0" opacity="0.5"/>
+
+  <!-- Land -->
+  <path d="M208,172
+           C290,110 430,82 545,118
+           C662,80 814,96 916,147
+           C1026,126 1154,162 1236,244
+           C1333,228 1415,288 1456,385
+           C1502,468 1481,584 1415,661
+           C1408,752 1362,834 1260,884
+           C1182,949 1034,972 924,942
+           C808,990 641,978 528,910
+           C406,922 284,870 215,776
+           C150,705 118,592 142,490
+           C112,358 146,242 208,172 Z"
+        fill="#dbc59b" stroke="#6f5b42" stroke-width="4" filter="url(#shadow)"/>
+
+  <!-- light regions -->
+  <path d="M300,176 C455,118 640,128 788,176 C748,248 554,274 364,256 C300,235 280,206 300,176 Z" fill="#cad9e3" opacity="0.35"/>
+  <path d="M898,152 C1018,128 1145,166 1210,244 C1150,310 1048,328 950,306 C892,258 872,204 898,152 Z" fill="#bdcaf2" opacity="0.35"/>
+  <path d="M736,178 C815,152 910,165 952,220 C915,268 820,283 748,255 C715,229 710,195 736,178 Z" fill="#dddcef" opacity="0.4"/>
+  <path d="M235,242 C388,216 528,242 585,352 C530,438 408,474 288,447 C228,396 206,314 235,242 Z" fill="#b8aa95" opacity="0.38"/>
+  <path d="M315,470 C462,420 670,440 780,548 C748,690 614,767 432,748 C326,692 284,588 315,470 Z" fill="#dd704f" opacity="0.38"/>
+  <path d="M522,748 C664,697 852,704 952,772 C928,866 796,922 648,912 C548,876 500,818 522,748 Z" fill="#8ab57d" opacity="0.42"/>
+  <path d="M786,372 C908,338 1020,350 1110,418 C1100,528 1010,593 892,598 C806,565 764,488 786,372 Z" fill="#f4efc8" opacity="0.4"/>
+  <path d="M1044,388 C1168,360 1276,390 1332,478 C1322,590 1232,668 1102,670 C1026,625 1000,512 1044,388 Z" fill="#d0a9dd" opacity="0.38"/>
+  <path d="M970,612 C1090,570 1218,592 1272,680 C1216,766 1086,820 968,788 C918,738 916,652 970,612 Z" fill="#bcabe8" opacity="0.36"/>
+  <path d="M1062,696 C1196,638 1370,660 1452,786 C1406,888 1256,930 1112,900 C1014,846 1000,754 1062,696 Z" fill="#82c6d9" opacity="0.4"/>
+  <ellipse cx="752" cy="507" rx="165" ry="98" fill="#dceaf2" opacity="0.84" stroke="#6e8aa0" stroke-width="1.6"/>
+
+  <!-- country labels -->
+  <text x="635" y="88" class="country" font-size="30">阿尔凯亚主大陆</text>
+  <text x="1288" y="646" class="region">潮冠海</text>
+  <text x="652" y="362" class="region">镜湖海中区</text>
+  <text x="1300" y="1020" class="region">沉环渊</text>
+
+  <text x="1006" y="266" class="country">风暴王国</text>
+  <text x="770" y="262" class="country">时序学院城邦</text>
+  <text x="300" y="382" class="country">石山帝国</text>
+  <text x="490" y="620" class="country">赤焰帝国</text>
+  <text x="708" y="880" class="country">翠绿联盟</text>
+  <text x="890" y="540" class="country">光辉圣国</text>
+  <text x="1140" y="584" class="country">心灵帝国</text>
+  <text x="1030" y="756" class="country">星门商盟</text>
+  <text x="1210" y="856" class="country">海蓝联邦</text>
+  <text x="910" y="648" class="country" fill="#2d2535">暗影议会渗透带</text>
+
+  <!-- key cities -->
+  <g>
+    <circle cx="654" cy="398" r="7" fill="#8b2e2e"/><text x="670" y="394" class="city">格兰西斯学院城</text>
+    <circle cx="722" cy="563" r="7" fill="#8b2e2e"/><text x="738" y="568" class="city">澜镜港</text>
+    <circle cx="962" cy="710" r="7" fill="#8b2e2e"/><text x="978" y="716" class="city">白栖城</text>
+    <circle cx="356" cy="432" r="7" fill="#8b2e2e"/><text x="372" y="428" class="city">灰脊关</text>
+    <circle cx="212" cy="540" r="7" fill="#8b2e2e"/><text x="228" y="538" class="city">灼痕遗都</text>
+    <circle cx="860" cy="198" r="7" fill="#8b2e2e"/><text x="876" y="194" class="city">寒钟塔城</text>
+    <circle cx="1112" cy="722" r="7" fill="#8b2e2e"/><text x="1128" y="718" class="city">群门城</text>
+    <circle cx="1360" cy="884" r="7" fill="#8b2e2e"/><text x="1376" y="880" class="city">沉环渊遗址群</text>
+  </g>
+
+  <!-- final core -->
+  <g>
+    <circle cx="1460" cy="958" r="12" fill="#7c3aed" stroke="#efe4ff" stroke-width="2.5"/>
+    <circle cx="1460" cy="958" r="25" fill="none" stroke="#7c3aed" stroke-width="2" stroke-dasharray="8 7" opacity="0.75"/>
+    <text x="1480" y="954" class="city">核心沉门 / 世界深层入口</text>
+  </g>
+
+  <!-- Volume 1 local halo -->
+  <circle cx="654" cy="398" r="78" fill="none" stroke="#b42318" stroke-width="5" stroke-dasharray="10 8" opacity="0.85"/>
+  <text x="594" y="312" class="vol" fill="#b42318">第一卷</text>
+  <text x="560" y="334" class="tiny">学院 / 训练事故 / 旧档调查</text>
+
+  <!-- Volume 2 route -->
+  <path d="M670,430 C688,478 704,520 722,563
+           C660,570 554,548 430,476
+           C366,444 322,432 356,432
+           M356,432 C305,466 254,505 212,540"
+        fill="none" stroke="#d97706" stroke-width="5" stroke-dasharray="10 8" opacity="0.92" marker-end="url(#arrow-orange)"/>
+  <text x="505" y="500" class="vol" fill="#d97706">第二卷</text>
+  <text x="475" y="522" class="tiny">黑市 / 边关 / 熔裂遗迹 / 原始调用前奏</text>
+
+  <!-- Volume 3 route -->
+  <path d="M722,563 C786,610 870,664 962,710
+           C1014,720 1062,724 1112,722"
+        fill="none" stroke="#16a34a" stroke-width="6" opacity="0.9" marker-end="url(#arrow-green)"/>
+  <ellipse cx="844" cy="632" rx="180" ry="92" fill="none" stroke="#16a34a" stroke-width="3.5" stroke-dasharray="9 8" opacity="0.55"/>
+  <text x="830" y="602" class="vol" fill="#16a34a">第三卷</text>
+  <text x="760" y="624" class="tiny">白栖城样板 / 公共节点 / 仓库 / 开源扩张</text>
+
+  <!-- Volume 4 routes -->
+  <path d="M962,710 C930,622 896,470 860,198"
+        fill="none" stroke="#2563eb" stroke-width="5" stroke-dasharray="9 8" opacity="0.9" marker-end="url(#arrow-blue)"/>
+  <path d="M1112,722 C1170,760 1260,818 1360,884"
+        fill="none" stroke="#2563eb" stroke-width="5" stroke-dasharray="9 8" opacity="0.9" marker-end="url(#arrow-blue)"/>
+  <text x="980" y="365" class="vol" fill="#2563eb">第四卷</text>
+  <text x="952" y="387" class="tiny">北境观测 / 世界异常 / 深海真相前置</text>
+
+  <!-- Volume 5 route -->
+  <path d="M860,198 C930,360 1045,560 1210,760 C1295,846 1370,902 1460,958"
+        fill="none" stroke="#7c3aed" stroke-width="6" opacity="0.9" marker-end="url(#arrow-purple)"/>
+  <text x="1182" y="610" class="vol" fill="#7c3aed">第五卷</text>
+  <text x="1148" y="632" class="tiny">终局合流 / 沉环渊 / 核心沉门 / 世界接口</text>
+
+  <!-- optional broader arcs -->
+  <g fill="none" stroke-linecap="round" opacity="0.36">
+    <path d="M654,398 C734,370 814,360 894,378" stroke="#b42318" stroke-width="3" stroke-dasharray="6 8"/>
+    <path d="M962,710 C896,792 794,840 666,846" stroke="#16a34a" stroke-width="3" stroke-dasharray="6 8"/>
+  </g>
+
+  <!-- title box -->
+  <rect x="44" y="42" width="790" height="112" rx="14" fill="#f8f0db" opacity="0.94" stroke="#8d7a5d" stroke-width="2"/>
+  <text x="68" y="86" class="title">世界地图 V3 · 剧情路线版</text>
+  <text x="70" y="116" class="subtitle">以第一卷到第五卷的行动轨迹、舞台升级、公共节点扩张与真相深入路径为重点的创作导向地图</text>
+
+  <!-- Compass -->
+  <g transform="translate(1548,114)">
+    <circle cx="0" cy="0" r="56" fill="#f8f0db" stroke="#7a6851" stroke-width="3"/>
+    <path d="M0,-42 L9,0 L0,42 L-9,0 Z" fill="#7a6851"/>
+    <path d="M-42,0 L0,9 L42,0 L0,-9 Z" fill="#7a6851"/>
+    <text x="-8" y="-64" class="legend">北</text>
+    <text x="58" y="6" class="legend">东</text>
+    <text x="-8" y="83" class="legend">南</text>
+    <text x="-68" y="6" class="legend">西</text>
+  </g>
+
+  <!-- legend -->
+  <g transform="translate(1354,188)">
+    <rect x="0" y="0" width="400" height="590" rx="16" fill="#f8f0db" opacity="0.95" stroke="#8c7a5d" stroke-width="2"/>
+    <text x="18" y="34" class="country" font-size="22">剧情路线图例</text>
+
+    <circle cx="34" cy="74" r="7" fill="#8b2e2e"/>
+    <text x="58" y="79" class="legend">关键舞台（学院 / 港口 / 要塞 / 遗迹 / 门站）</text>
+
+    <circle cx="34" cy="108" r="12" fill="#7c3aed" stroke="#efe4ff" stroke-width="2.5"/>
+    <text x="58" y="113" class="legend">终局入口 / 世界深层节点</text>
+
+    <line x1="20" y1="148" x2="48" y2="148" stroke="#b42318" stroke-width="5" stroke-dasharray="10 8"/>
+    <text x="58" y="153" class="legend">第一卷：学院封闭空间与局部活动范围</text>
+
+    <line x1="20" y1="182" x2="48" y2="182" stroke="#d97706" stroke-width="5" stroke-dasharray="10 8"/>
+    <text x="58" y="187" class="legend">第二卷：黑市、边境、熔裂遗迹线</text>
+
+    <line x1="20" y1="216" x2="48" y2="216" stroke="#16a34a" stroke-width="6"/>
+    <text x="58" y="221" class="legend">第三卷：公共节点 / 开源扩张主线</text>
+
+    <line x1="20" y1="250" x2="48" y2="250" stroke="#2563eb" stroke-width="5" stroke-dasharray="9 8"/>
+    <text x="58" y="255" class="legend">第四卷：北境观测 + 深海真相双线</text>
+
+    <line x1="20" y1="284" x2="48" y2="284" stroke="#7c3aed" stroke-width="6"/>
+    <text x="58" y="289" class="legend">第五卷：终局合流路线</text>
+
+    <circle cx="34" cy="326" r="11" fill="none" stroke="#16a34a" stroke-width="3"/>
+    <text x="58" y="331" class="legend">公共网络样板扩散区</text>
+
+    <circle cx="34" cy="360" r="11" fill="none" stroke="#b42318" stroke-width="3" stroke-dasharray="8 7"/>
+    <text x="58" y="365" class="legend">卷内高密度局部舞台（第一卷）</text>
+
+    <text x="20" y="412" class="note">阅读重点：</text>
+    <text x="20" y="434" class="note">1. 第一卷基本不离开学院—中区这条轴。</text>
+    <text x="20" y="456" class="note">2. 第二卷把主角从学院拖进现实与遗迹。</text>
+    <text x="20" y="478" class="note">3. 第三卷开始让“个人理解”变成可传播网络。</text>
+    <text x="20" y="500" class="note">4. 第四卷同时向“世界异常”和“世界真相”展开。</text>
+    <text x="20" y="522" class="note">5. 第五卷让全部线索在沉环渊方向汇流。</text>
+  </g>
+
+  <!-- footer -->
+  <text x="50" y="1068" class="note">如果继续升级，下一步最适合做的是：把这张剧情路线版再拆成 `第一卷行动图`、`第二卷行动图`、`第三卷公共节点扩张图` 三张更细的卷别地图。</text>
+</svg>
