@@ -1,0 +1,248 @@
+{
+  "version": 1,
+  "novelName": "我在魔法世界解构万法",
+  "projectPath": "./chinese-novelist/20260507-230213-我在魔法世界解构万法",
+  "totalChapters": 24,
+  "minWordsPerChapter": 3000,
+  "maxWordsPerChapter": 4000,
+  "createdAt": "2026-05-07T23:02:13+08:00",
+  "updatedAt": "2026-05-07T23:02:13+08:00",
+  "status": "planning",
+  "writingMode": null,
+  "scope": {
+    "seriesTargetChapters": 1400,
+    "currentArc": "第一卷",
+    "currentArcGoal": "建立学院舞台、确认现代魔法存在封装层、让主角第一次碰到被隐藏的门"
+  },
+  "constraints": {
+    "useExistingProjectWorldbuilding": true,
+    "noHarem": true,
+    "noSystemPanel": true,
+    "targetAudience": "大众读者",
+    "referenceStyle": "黎明之剑",
+    "perspective": "第三人称限制视角",
+    "tone": "轻松愉快",
+    "themes": [
+      "成长与蜕变",
+      "自由与束缚"
+    ]
+  },
+  "chapters": [
+    {
+      "chapterNumber": 1,
+      "title": "死于加班，醒于火光",
+      "filePath": "第01章-死于加班，醒于火光.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 2,
+      "title": "所有人都会魔法",
+      "filePath": "第02章-所有人都会魔法.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 3,
+      "title": "标准答案",
+      "filePath": "第03章-标准答案.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 4,
+      "title": "失误的代价",
+      "filePath": "第04章-失误的代价.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 5,
+      "title": "贫民宿舍与贵族高塔",
+      "filePath": "第05章-贫民宿舍与贵族高塔.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 6,
+      "title": "第一张结构表",
+      "filePath": "第06章-第一张结构表.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 7,
+      "title": "实训日前的偏差",
+      "filePath": "第07章-实训日前的偏差.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 8,
+      "title": "失控火线",
+      "filePath": "第08章-失控火线.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 9,
+      "title": "纠错的人",
+      "filePath": "第09章-纠错的人.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 10,
+      "title": "被记住的人",
+      "filePath": "第10章-被记住的人.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 11,
+      "title": "不该提出的问题",
+      "filePath": "第11章-不该提出的问题.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 12,
+      "title": "贵族的完美咒语",
+      "filePath": "第12章-贵族的完美咒语.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 13,
+      "title": "第三层图书馆",
+      "filePath": "第13章-第三层图书馆.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 14,
+      "title": "边角里的注释者",
+      "filePath": "第14章-边角里的注释者.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 15,
+      "title": "被拒绝的申请",
+      "filePath": "第15章-被拒绝的申请.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 16,
+      "title": "夜入旧档室",
+      "filePath": "第16章-夜入旧档室.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 17,
+      "title": "残页之火",
+      "filePath": "第17章-残页之火.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 18,
+      "title": "两种语言，一种结构",
+      "filePath": "第18章-两种语言，一种结构.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 19,
+      "title": "废弃训练场",
+      "filePath": "第19章-废弃训练场.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 20,
+      "title": "精神过载",
+      "filePath": "第20章-精神过载.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 21,
+      "title": "贵族的试探",
+      "filePath": "第21章-贵族的试探.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 22,
+      "title": "第二次尝试",
+      "filePath": "第22章-第二次尝试.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 23,
+      "title": "不属于这个时代的回响",
+      "filePath": "第23章-不属于这个时代的回响.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    },
+    {
+      "chapterNumber": 24,
+      "title": "错误咒语的尽头",
+      "filePath": "第24章-错误咒语的尽头.md",
+      "status": "pending",
+      "wordCount": null,
+      "wordCountPass": null,
+      "retryCount": 0
+    }
+  ]
+}
